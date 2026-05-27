@@ -1,0 +1,63 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HK전기통신(주)</title>
+    <!-- 1. 부트스트랩 CSS 연결 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+   <style>
+        /* 기본 스타일 */
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; margin: 0; color: #333; }
+        header { background: #004a99; color: white; padding: 2rem; text-align: center; }
+        
+        /* 메인 컨텐츠 레이아웃 */
+        .container { max-width: 1000px; margin: 2rem auto; padding: 0 20px; }
+        .section { display: flex; align-items: center; gap: 40px; margin-bottom: 50px; flex-wrap: wrap; }
+        .section:nth-child(even) { flex-direction: row-reverse; } /* 짝수 섹션은 사진/설명 반전 */
+        
+        /* 이미지와 텍스트 박스 */
+        .image-box { flex: 1; min-width: 300px; }
+        .image-box img { width: 100%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .text-box { flex: 1; min-width: 300px; }
+        
+        /* 하단 푸터 */
+        footer { background: #f4f4f4; text-align: center; padding: 2rem; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+ <!-- 2. 부트스트랩 JS 연결 (바디 태그 닫히기 직전) -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+<header>
+    <h1>회사연혁</h1>
+    <p>since 1998 </p>
+</header>
+
+<div class="container">
+    <!-- 제품/서비스 설명 1 -->
+          <div class="text-box">
+            <h2>1998년 ㅇㅇㅇ설립  </h2>
+                <P>3G기반의 통신네트워크</P>
+            <ul>
+                <li>3G</li>
+                <li>케이블포설</li>
+                 <li>음영지역 해소</li>
+            </ul>
+         </div>
+   
+
+    <!-- 제품/서비스 설명 2 -->
+   
+        <div class="text-box">
+            <h2>2004년 HK전기통신주식회사설립</h2>
+            <p>안전한 시공과 정확한 공사기간 깔끔한 시공 </p>
+            <div class="image-box">
+              <img src="sky.jpg" alt="제품이미지">
+            </div>
+        </div>
+
+<footer>
+    <p>주소: 경기도 군포시 금정동 85-19 | 전화: 031-429-9138</p>
+    <p>&copy; 2026 HK전기통신 (주) All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
